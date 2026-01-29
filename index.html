@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite expo</title>
+    <link rel="shortcut icon" href="images/icon.jpeg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div id="nav" class="container-fluid">
+                <a class="navbar-brand" href="#"><img style="width: 250px;" src="images/logo.jpeg" alt=""><img style="width:250px" src="images/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-dark" href="#" onclick="showSlide('home')">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="showSlide('products')">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="showSlide('contact')">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="showSlide('about')">About us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="slide active">
+            <video autoplay muted loop id="background-video">
+                <source src="33462-360.mp4" type="video/mp4">
+            </video>
+            <div class="mainheader">
+                <h1 style="color: black; margin-top:100px"><span style="color:rgba(232, 204, 46, 0.852)">Elite</span> expo</h1>
+                <p style="font-weight:400; font-size:25px; "><span  style="color:rgba(232, 204, 46, 0.852)">Elite </span>Expo.. الرفاهية اللي بشرتك هتحبها</p>
+                <h2 style="color:rgba(232, 204, 46, 0.852);background:rgba(0,0,0,0.45);padding:10px;text-align:center;border-radius:10px">وكيل رسمي معتمد - شركة بيراميدز لمستحضرات التجميل</h2>
+              </div>
+        </section>
+        <section id="products" class="slide">
+    <h1 class="text-center my-5" style="font-size:50px">Our Products</h1>
+    <div class="container " id="container">
+        <div class="row g-4 justify-content-center">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img src="images/WhatsApp Image 2026-01-29 at 02.10.52 (2).jpeg" class="card-img-top" alt="body lotion">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">body lotion/بدي لوشن</h5>
+                        <p class="btn btn-primary">سعر الدستة 575</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img src="images/WhatsApp Image 2026-01-29 at 04.07.08.jpeg" class="card-img-top" alt="cream soft 75ml">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">cream soft 75ml/كريم مرطب 75مل</h5>
+                        <p class="btn btn-primary">سعر الدستة 309</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img src="images/WhatsApp Image 2026-01-29 at 02.10.54 (2).jpeg" class="card-img-top" alt="shower gel 500ml">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">shower gel 500ml/شاور جل 500مل</h5>
+                        <p class="btn btn-primary">سعر الدستة 411</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img src="images/WhatsApp Image 2026-01-29 at 04.30.12.jpeg" class="card-img-top" alt="lip butter">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">lip butter /زبدة الشفاة</h5>
+                        <p class="btn btn-primary">سعر الدستة 414</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img src="images/WhatsApp Image 2026-01-29 at 02.10.54 (1).jpeg" class="card-img-top" alt="lip balm">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">lip balm /مرطب الشفاة</h5>
+                        <p class="btn btn-primary">سعر الدستة 170</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img src="images/WhatsApp Image 2026-01-29 at 02.10.50.jpeg" class="card-img-top" alt="cream soft 50ml">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">cream soft 50ml/كريم مرطب 50مل</h5>
+                        <p class="btn btn-primary">سعر الدستة 330</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img src="images/Web_Photo_Editor-2024-07-27T182444.548.png" class="card-img-top" alt="cream soft 250ml">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">cream soft 250 ml/كريم مرطب 250مل</h5>
+                        <p class="btn btn-primary">سعر الدستة 1025</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img src="images/ec89b479-f976-4a8a-8413-7b4fd55de358.avif" class="card-img-top" alt="liquid hand soap">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">liquid hand soap 350ml/صابون سائل للايدي 350مل</h5>
+                        <p class="btn btn-primary">سعر الدستة 356</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img src="images/WhatsApp Image 2026-01-29 at 02.10.53 (3).jpeg" class="card-img-top" alt="facial wash">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">facial wash/غسول للوجه</h5>
+                        <p class="btn btn-primary">سعر الدستة 580</p>
+                    </div>
+                </div>
+              </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img src="images/ba915430-4089-41c7-aa28-589238096664.avif" class="card-img-top" alt="deodorant roll-on">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">deodorant roll-on/مزيل لرائحة العرق</h5>
+                        <p class="btn btn-primary">سعر الدستة 414</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img src="images/WhatsApp Image 2026-01-29 at 02.10.52 (1).jpeg" class="card-img-top" alt="foot cream-scrub">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">foot cream-scrub/كريم-مقشر للقدمين</h5>
+                        <p class="btn btn-primary">سعر الدستة 669</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img src="images/WhatsApp Image 2026-01-29 at 02.10.48.jpeg" class="card-img-top" alt="glysolid glycerin 20ml">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">glysolid glycerin 20ml/جليسوليد كريم 20مل</h5>
+                        <p class="btn btn-primary">سعر الدستة 158</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img src="images/WhatsApp Image 2026-01-29 at 02.10.48.jpeg" class="card-img-top" alt="glysolid glycerin 40ml">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">glysolid glycerin 40ml/جليسوليد كريم 40مل</h5>
+                        <p class="btn btn-primary">سعر الدستة 330</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img src="images/WhatsApp Image 2026-01-29 at 02.10.48.jpeg" class="card-img-top" alt="glysolid glycerin 80ml">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">glysolid glycerin 80ml/كريم جليسوليد 80مل</h5>
+                        <p class="btn btn-primary">سعر الدستة 575</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img src="images/WhatsApp Image 2026-01-29 at 02.10.48 (2).jpeg" class="card-img-top" alt="glysolid glycerin 125ml">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">glysolid glycerin 125ml/كريم جليسوليد 125مل</h5>
+                        <p class="btn btn-primary">سعر الدستة 780</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img src="images/WhatsApp Image 2026-01-29 at 02.10.48 (2).jpeg" class="card-img-top" alt="glysolid body lotion 200ml">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">glysolid body lotion 200ml/لوشن جليسوليد 200مل</h5>
+                        <p class="btn btn-primary">سعر الدستة 634</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img src="images/NHO3MqmEpuSrcDGglWmomxmOyUoQDUQr3EpXzg0U.webp" class="card-img-top" alt="glysolid body lotion 500ml">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">glysolid body lotion 500ml/لوشن جليسوليد 500مل</h5>
+                        <p class="btn btn-primary">سعر الدستة 1267</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img src="images/WhatsApp Image 2026-01-29 at 02.10.51 (1).jpeg" class="card-img-top" alt="glory henna">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">glory henna / حنة جلوري</h5>
+                        <p class="btn btn-primary">سعر الدستة 365</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img src="images/WhatsApp Image 2026-01-29 at 02.10.56 (3).jpeg" class="card-img-top" alt="trio liquid hand soap">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">trio liquid hand soap 500ml/ صابون سائل للايدي 500مل</h5>
+                        <p class="btn btn-primary">سعر الدستة 357</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section id="contact" class="slide">
+            <h1 id="h1contact">Contact</h1>
+            <p id="h1contact">Get in touch with us...</p>
+            <div class="links">
+                <a target="_blank" href="https://www.facebook.com/share/1G5uaiptYk/">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a target="_blank" href="tel:+201553731815">
+                    <i class="bi bi-telephone-outbound"></i>
+                </a>
+                <a target="_blank" href="https://wa.me/201553731815">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+                <a target="_blank" href="https://www.tiktok.com/@elite.expo3?_r=1&_t=ZS-93PNfmxn9nh">
+                    <i class="bi bi-tiktok"></i>
+                </a>
+                <a target="_blank" href="https://t.me/MawE555">
+                    <i class="bi bi-telegram"></i>
+                </a>
+<a target="_blank" href="#" id="vodafoneCash">
+    <i class="bi bi-wallet2"></i> فودافون كاش
+</a>
+<div  class="modal fade" id="copyModal" tabindex="-1" aria-labelledby="copyModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="copyModalLabel">تم النسخ</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        تم نسخ رقم فودافون كاش: <strong id="copiedNumber"></strong>
+      </div>
+    </div>
+  </div>
+</div>
+<a  href="#" id="instaPay">
+    <i class="bi bi-credit-card"></i> إنستا باي
+</a>
+<div class="modal fade" id="instaPayModal" tabindex="-1" aria-labelledby="instaPayModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="instaPayModalLabel">تم النسخ</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        تم نسخ رقم إنستا باي:  
+        <strong id="instaPayNumber"></strong>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+        <section style="margin-top:30px" id="about" class="slide">
+            <h1 style="font-size:70px">About Us</h1>
+            <p style="text-align: right;">
+                الجمال يبدأ من المصدر
+​نحن لسنا مجرد متجر لمنتجات العناية، نحن المصنع والمنبع. في (Elite expo)، نؤمن أن العناية الفائقة بالبشرة والشعر لا يجب أن تكون رفاهية مكلفة، بل حقاً لكل من يسعى للتألق بجودة حقيقية وأسعار عادلة.
+​لماذا نحن خيارك الأول؟
+​لقد كسرنا القاعدة التي تقول إن الجودة العالية تعني سعراً باهظاً. بفضل سياسة "من المصنع إليك مباشرة"، استطعنا تقديم:
+​أقل سعر في السوق: لأننا نلغي العمولات والوسطاء، ونمنحك سعر التكلفة الحقيقي.
+​جودة مضمونة: كل منتج يخرج من معاملنا يمر بأعلى معايير الرقابة الصحية والجمالية.
+​هدايا وبونص مستمر: لأننا نقدّر ثقتكم، نحرص دائماً على تقديم عروض "البونص" والخصومات التي تجعل تجربة التسوق لدينا أكثر توفيراً.
+​رؤيتنا
+​أن نصبح الوجهة الأولى لكل امرأة ورجل يبحثون عن حلول فعّالة وآمنة للعناية بالشعر والبشرة، مع الحفاظ على التوازن المثالي بين السعر الاقتصادي والنتيجة المبهرة.
+​وعدنا لكم
+​نعدكم بالشفافية المطلقة، والابتكار المستمر في تطوير منتجاتنا، وأن نظل دائماً السند الأقوى لجمالكم بأفضل قيمة مقابل سعر في مصر.
+            </p>
+        </section>
+    </main>
+    <footer class="site-footer">
+    <div class="footer-line"></div>
+    <div class="container footer-content" style="display: block;">
+        <p class="brand">
+            © 2020 <span>Elite Expo</span> – إيليت إكسبو
+        </p>
+        <p class="tax">
+            التسجيل الضريبي: 579-440-400
+        </p>
+        <p class="brand">© 2026 Designed by Mohamed ELmenshawy</p>
+        
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
